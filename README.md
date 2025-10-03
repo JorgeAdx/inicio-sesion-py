@@ -14,6 +14,6 @@ Si ambos campos contienen información, se procede a verificar las credenciales 
 **Contraseña registrada**: `1234`
 **Intentos máximos**: `3`
 
-## Licencia
+## Licencia:
 
 Este proyecto está licenciado bajo la [Licencia MIT](LICENSE).
