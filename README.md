@@ -1,19 +1,19 @@
-# Inicio de sesión (Python)
-[ES] Este es un módulo que implementa un sistema de autenticación básico por consola con un número limitado de intentos. Se puede integrar fácilmente como parte de otro proyecto integral, o bien, utilizarse como ejercicio de práctica.
+# Login System (Python)
 
-## Funcionamiento:
+[EN] This is a module that implements a basic console authentication system with a limited number of attempts. It can be easily integrated as part of a larger project or used as a practice exercise.
 
-El programa solicita al usuario que ingrese un nombre de usuario y una contraseña. Antes de validar, se verifica que ninguno de los campos esté vacío. Si se detecta un campo vacío, el sistema muestra un mensaje de advertencia sin descontar un intento.
+## How it works:
 
-Si ambos campos contienen información, se procede a verificar las credenciales ingresadas. Si estas no coinciden, se imprime error junto con el número de intentos de acceso restantes. Una vez alcanzado el número de intentos máximo, el acceso queda bloqueado.
+The program prompts the user to enter a username and password. Before validation, it checks that neither field is empty. If an empty field is detected, the system displays a warning message without counting it as an attempt.
 
+If both fields contain information, the entered credentials are verified. If they do not match, an error is displayed along with the number of remaining login attempts. Once the maximum number of attempts is reached, access is blocked.
 
-## Configuración por defecto:
+## Default configuration:
 
-**Usuario registrado**: `admin`
-**Contraseña registrada**: `1234`
-**Intentos máximos**: `3`
+**Registered username**: `admin`  
+**Registered password**: `1234`  
+**Maximum attempts**: `3`
 
-## Licencia:
+## License:
 
-Este proyecto está licenciado bajo la [Licencia MIT](LICENSE).
+This project is licensed under the [MIT License](LICENSE).
